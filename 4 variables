@@ -1,0 +1,17 @@
+class Book:
+    def __init__(self,pages):
+        self.pages = pages
+
+    def __str__(self):
+        return "the number of pages: " + str(self.pages)
+    
+    def __add__(self,other):
+        total = self.pages + other.pages
+        b = Book(total)
+        return b
+    
+b1 = Book(400)
+b3 = Book(300)
+b6 = Book(600)
+b7 = Book(700)
+print(b3+b6+b1+b7)
