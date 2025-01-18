@@ -1,0 +1,14 @@
+class Stu:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+
+    def __lt__(self,others):
+        return self.marks<others.marks
+
+
+s1 = Stu("sudheer", 200)
+s2 = Stu("rere",120)
+print(s1<s2)
+print(s2<s1)
+    
