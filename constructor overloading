@@ -1,0 +1,7 @@
+class Test:
+    def __init__ (self,*a):
+        print("with any constructor")
+t = Test(10,20,50)
+t = Test(10,20,50)
+
+t = Test(10,20,50,344545,334)
