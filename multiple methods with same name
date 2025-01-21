@@ -1,0 +1,10 @@
+class Test:
+    def sum (self):
+        print("no arg")
+    def sum(self,a):
+        print("1 arg")
+    def sum(self,a,b):
+        print("2 arg")
+
+t = Test()
+t.sum(10,20)
