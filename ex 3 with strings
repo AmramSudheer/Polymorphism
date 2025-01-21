@@ -1,0 +1,10 @@
+class Test:
+    def sum (self,*a):
+        total = ' '
+        for i in a:
+            total = total+i
+        print("result:",total)
+
+t = Test()
+t.sum('sunny')
+t.sum('sadasdasdasds')
